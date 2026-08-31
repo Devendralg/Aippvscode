@@ -1,0 +1,30 @@
+{
+  "..\\..\\..\\..\\Program Files\\Microsoft VS Code\\Untitled-1": {
+    "filename": "Untitled-1",
+    "path": "..\\..\\..\\..\\Program Files\\Microsoft VS Code\\Untitled-1",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "6cd8b2": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "86746e90"
+        },
+        "hash": "37c94482",
+        "messageId": "system_a53bdc60-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": "system_a53bdc60-a526-11f1-a3f3-dbaa78631793-Codeblock-7",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 3:59:10 PM\n- **source**: chat\n- **type**: compareCode\n"
+      }
+    },
+    "lines": {},
+    "_prevLineCount": 1
+  }
+}

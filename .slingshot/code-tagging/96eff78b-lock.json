@@ -1,0 +1,146 @@
+{
+  "Test\\addition.js": {
+    "filename": "addition.js",
+    "path": "Test\\addition.js",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "28e993": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1787810134,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.2.0",
+        "source": "chat",
+        "type": "applyChanges",
+        "extraContext": {
+          "promptMessage": "86746e90",
+          "files": "392864e5"
+        },
+        "hash": "4506b70b",
+        "messageId": "system_967b9fb0-a1db-11f1-9193-2bddd1b4b3d9",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/27/2026, 11:25:34 AM\n- **source**: chat\n- **type**: applyChanges\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "28e993",
+        "hash": "63f86def",
+        "encoded": "//%20This%20is%20slingshot%20version%203.2.0",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "28e993",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "28e993",
+        "hash": "e6f009d3",
+        "encoded": "*%20Utility%20to%20verify%20if%20a%20value%20is%20a%20valid,%20finite%20number.",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "28e993",
+        "hash": "cfd2ef74",
+        "encoded": "*%20@param%20%7B*%7D%20value%20-%20The%20value%20to%20validate.",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "28e993",
+        "hash": "9dbc0d24",
+        "encoded": "*%20@returns%20%7Bboolean%7D%20-%20True%20if%20valid,%20false%20otherwise.",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "28e993",
+        "hash": "f2ad3d4c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "28e993",
+        "hash": "08ab663d",
+        "encoded": "const%20isValidNumber%20=%20(value)%20=%3E%20typeof%20value%20===%20'number'%20&&%20!isNaN(value)%20&&%20isFinite(value);",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "28e993",
+        "hash": "1d1b7499",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "28e993",
+        "hash": "468ff98e",
+        "encoded": "*%20Adds%20two%20numbers%20together.",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "28e993",
+        "hash": "dfc5acba",
+        "encoded": "*%20@param%20%7Bnumber%7D%20a%20-%20The%20first%20operand.",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "28e993",
+        "hash": "68b6195c",
+        "encoded": "*%20@param%20%7Bnumber%7D%20b%20-%20The%20second%20operand.",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "28e993",
+        "hash": "a6f3fa1b",
+        "encoded": "*%20@returns%20%7Bnumber%7D%20-%20The%20sum%20of%20the%20two%20operands.",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "28e993",
+        "hash": "3ee45ce6",
+        "encoded": "*%20@throws%20%7BTypeError%7D%20-%20If%20either%20operand%20is%20not%20a%20valid%20finite%20number.",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "28e993",
+        "hash": "97c602ba",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "28e993",
+        "hash": "e7bbbf57",
+        "encoded": "export%20const%20add%20=%20(a,%20b)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "28e993",
+        "hash": "17426f9a",
+        "encoded": "if%20(!isValidNumber(a)%20%7C%7C%20!isValidNumber(b))%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "28e993",
+        "hash": "b80ee164",
+        "encoded": "throw%20new%20TypeError('Both%20arguments%20must%20be%20valid%20finite%20numbers.');",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "28e993",
+        "hash": "ee39c532",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "28e993",
+        "hash": "02438dd5",
+        "encoded": "return%20a%20+%20b;",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 22
+  }
+}

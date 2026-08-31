@@ -1,0 +1,15 @@
+{
+  "filename": ".env",
+  "path": ".env",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "a05997a8": {
+      "value": "understand current workspace and genereate prompt"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

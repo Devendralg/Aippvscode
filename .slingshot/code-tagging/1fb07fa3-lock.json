@@ -1,0 +1,757 @@
+{
+  "testcase\\sum.test.js": {
+    "filename": "sum.test.js",
+    "path": "testcase\\sum.test.js",
+    "version": "1.2",
+    "contextFile": "1fb07fa3-context.json",
+    "chunks": {
+      "850f41": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172275,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "applyChanges",
+        "extraContext": {
+          "promptMessage": "49cff820"
+        },
+        "hash": "be2430f9",
+        "messageId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 4:01:15 PM\n- **source**: chat\n- **type**: applyChanges\n"
+      },
+      "e3be6d": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172284,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {
+          "promptMessage": "49cff820"
+        },
+        "hash": "be2430f9",
+        "messageId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793-Codeblock-1",
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 4:01:24 PM\n- **source**: chat\n- **type**: insertCode\n"
+      }
+    },
+    "lines": {
+      "3": {
+        "chunkId": "e3be6d",
+        "hash": "af2d7d15",
+        "encoded": "//%20This%20is%20slingshot%20version%203.2.0",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "e3be6d",
+        "hash": "004b3c5f",
+        "encoded": "const%20%7B%20describe,%20it%20%7D%20=%20require('node:test');",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "e3be6d",
+        "hash": "3bbb6d6c",
+        "encoded": "const%20assert%20=%20require('node:assert/strict');",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "e3be6d",
+        "hash": "18bb17f4",
+        "encoded": "const%20%7B%20add,%20isValidNumber,%20parseNumber%20%7D%20=%20require('./add.js');",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "e3be6d",
+        "hash": "cfd8e328",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "e3be6d",
+        "hash": "28c5432b",
+        "encoded": "*%20Test%20Suite:%20Addition%20Function",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "e3be6d",
+        "hash": "95a05133",
+        "encoded": "*%20Validates%20the%20core%20addition%20functionality%20with%20various%20input%20scenarios",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "e3be6d",
+        "hash": "c27421dc",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "e3be6d",
+        "hash": "319c97d4",
+        "encoded": "describe('add()',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "e3be6d",
+        "hash": "4e466cb7",
+        "encoded": "describe('Valid%20Operations',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "e3be6d",
+        "hash": "947527d2",
+        "encoded": "it('should%20correctly%20add%20two%20positive%20integers',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "e3be6d",
+        "hash": "a9374eb6",
+        "encoded": "assert.strictEqual(add(5,%2010),%2015);",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "e3be6d",
+        "hash": "99e8e451",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "e3be6d",
+        "hash": "2b647967",
+        "encoded": "it('should%20handle%20negative%20numbers%20correctly',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "e3be6d",
+        "hash": "08b9416e",
+        "encoded": "assert.strictEqual(add(-5,%2010),%205);",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "e3be6d",
+        "hash": "658ca780",
+        "encoded": "assert.strictEqual(add(-10,%20-5),%20-15);",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "e3be6d",
+        "hash": "76a9f041",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "e3be6d",
+        "hash": "a41285d3",
+        "encoded": "it('should%20add%20decimal%20numbers%20with%20precision',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "e3be6d",
+        "hash": "d9586895",
+        "encoded": "assert.strictEqual(add(3.5,%202.5),%206);",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "e3be6d",
+        "hash": "37b4d251",
+        "encoded": "assert.strictEqual(add(0.1,%200.2),%200.30000000000000004);%20//%20Floating-point%20precision",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "e3be6d",
+        "hash": "1ca2ca1b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "e3be6d",
+        "hash": "7f8c7595",
+        "encoded": "it('should%20handle%20zero%20as%20an%20operand',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "e3be6d",
+        "hash": "9c98cf3f",
+        "encoded": "assert.strictEqual(add(0,%2010),%2010);",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "e3be6d",
+        "hash": "eeb083b5",
+        "encoded": "assert.strictEqual(add(10,%200),%2010);",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "e3be6d",
+        "hash": "a079513a",
+        "encoded": "assert.strictEqual(add(0,%200),%200);",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "e3be6d",
+        "hash": "25c863d9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "e3be6d",
+        "hash": "84faadb9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "e3be6d",
+        "hash": "45770c5b",
+        "encoded": "describe('Error%20Handling',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "e3be6d",
+        "hash": "268ff6eb",
+        "encoded": "it('should%20throw%20TypeError%20for%20non-numeric%20first%20argument',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "e3be6d",
+        "hash": "d0dce854",
+        "encoded": "assert.throws(",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "e3be6d",
+        "hash": "ff61b593",
+        "encoded": "()%20=%3E%20add('abc',%205),",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "e3be6d",
+        "hash": "9539d4ca",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "e3be6d",
+        "hash": "7d4092cf",
+        "encoded": "name:%20'TypeError',",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "e3be6d",
+        "hash": "732028bd",
+        "encoded": "message:%20'Both%20arguments%20must%20be%20valid%20numbers'",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "e3be6d",
+        "hash": "5663967b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "e3be6d",
+        "hash": "975971db",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "e3be6d",
+        "hash": "39fe36a7",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "e3be6d",
+        "hash": "96b03a31",
+        "encoded": "it('should%20throw%20TypeError%20for%20non-numeric%20second%20argument',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "e3be6d",
+        "hash": "41041cae",
+        "encoded": "assert.throws(",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "e3be6d",
+        "hash": "63685cb4",
+        "encoded": "()%20=%3E%20add(5,%20'xyz'),",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "e3be6d",
+        "hash": "8766fd58",
+        "encoded": "TypeError",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "e3be6d",
+        "hash": "8f9ad9ee",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "e3be6d",
+        "hash": "b6499095",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "e3be6d",
+        "hash": "ebc9398f",
+        "encoded": "it('should%20reject%20NaN%20values',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "e3be6d",
+        "hash": "3a501ad2",
+        "encoded": "assert.throws(()%20=%3E%20add(NaN,%205),%20TypeError);",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "e3be6d",
+        "hash": "fc2e38d9",
+        "encoded": "assert.throws(()%20=%3E%20add(5,%20NaN),%20TypeError);",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "e3be6d",
+        "hash": "4f8dfc51",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "e3be6d",
+        "hash": "bea0fd41",
+        "encoded": "it('should%20reject%20Infinity%20values',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "e3be6d",
+        "hash": "2f94ca2c",
+        "encoded": "assert.throws(()%20=%3E%20add(Infinity,%205),%20TypeError);",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "e3be6d",
+        "hash": "8a7713b2",
+        "encoded": "assert.throws(()%20=%3E%20add(5,%20-Infinity),%20TypeError);",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "e3be6d",
+        "hash": "a5e29a33",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "e3be6d",
+        "hash": "b54befcd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "e3be6d",
+        "hash": "841a9c8c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "e3be6d",
+        "hash": "c50c01c3",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "e3be6d",
+        "hash": "d5fdce3f",
+        "encoded": "*%20Test%20Suite:%20Number%20Validation%20Utility",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "e3be6d",
+        "hash": "ca52c0bf",
+        "encoded": "*%20Ensures%20isValidNumber%20correctly%20identifies%20valid%20numeric%20values",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "e3be6d",
+        "hash": "6665b0da",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "e3be6d",
+        "hash": "cc7e719f",
+        "encoded": "describe('isValidNumber()',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "e3be6d",
+        "hash": "f1f95c8e",
+        "encoded": "const%20validNumbers%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "e3be6d",
+        "hash": "e6090b4b",
+        "encoded": "%7B%20value:%2042,%20description:%20'positive%20integer'%20%7D,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "e3be6d",
+        "hash": "7426a9fb",
+        "encoded": "%7B%20value:%20-42,%20description:%20'negative%20integer'%20%7D,",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "e3be6d",
+        "hash": "527e8d7c",
+        "encoded": "%7B%20value:%200,%20description:%20'zero'%20%7D,",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "e3be6d",
+        "hash": "9bebc715",
+        "encoded": "%7B%20value:%203.14,%20description:%20'positive%20decimal'%20%7D,",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "e3be6d",
+        "hash": "5638dec5",
+        "encoded": "%7B%20value:%20-3.14,%20description:%20'negative%20decimal'%20%7D",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "e3be6d",
+        "hash": "ca8397c3",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "e3be6d",
+        "hash": "d4539f4d",
+        "encoded": "validNumbers.forEach((%7B%20value,%20description%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "e3be6d",
+        "hash": "9d87615d",
+        "encoded": "it(%60should%20validate%20$%7Bdescription%7D%20($%7Bvalue%7D)%60,%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "e3be6d",
+        "hash": "19a79586",
+        "encoded": "assert.strictEqual(isValidNumber(value),%20true);",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "e3be6d",
+        "hash": "afbb28ea",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "e3be6d",
+        "hash": "afba082c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "e3be6d",
+        "hash": "74ab3636",
+        "encoded": "const%20invalidValues%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "e3be6d",
+        "hash": "e1ff4821",
+        "encoded": "%7B%20value:%20NaN,%20description:%20'NaN'%20%7D,",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "e3be6d",
+        "hash": "b10588b3",
+        "encoded": "%7B%20value:%20Infinity,%20description:%20'Infinity'%20%7D,",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "e3be6d",
+        "hash": "422cfedd",
+        "encoded": "%7B%20value:%20-Infinity,%20description:%20'-Infinity'%20%7D,",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "e3be6d",
+        "hash": "42dade90",
+        "encoded": "%7B%20value:%20'42',%20description:%20'string%20number'%20%7D,",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "e3be6d",
+        "hash": "ff096020",
+        "encoded": "%7B%20value:%20null,%20description:%20'null'%20%7D,",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "e3be6d",
+        "hash": "aed0ccce",
+        "encoded": "%7B%20value:%20undefined,%20description:%20'undefined'%20%7D,",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "e3be6d",
+        "hash": "fabc3e4c",
+        "encoded": "%7B%20value:%20%7B%7D,%20description:%20'object'%20%7D,",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "e3be6d",
+        "hash": "d50cd3a5",
+        "encoded": "%7B%20value:%20%5B%5D,%20description:%20'array'%20%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "e3be6d",
+        "hash": "7a3920eb",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "e3be6d",
+        "hash": "1d6e9e1f",
+        "encoded": "invalidValues.forEach((%7B%20value,%20description%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "e3be6d",
+        "hash": "de89207f",
+        "encoded": "assert.strictEqual(isValidNumber(value),%20false);",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "e3be6d",
+        "hash": "8a83ede4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "e3be6d",
+        "hash": "8fafb84f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "e3be6d",
+        "hash": "cb89ead6",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "e3be6d",
+        "hash": "a51d4938",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "e3be6d",
+        "hash": "df68ecad",
+        "encoded": "*%20Test%20Suite:%20Number%20Parsing%20Utility",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "e3be6d",
+        "hash": "7ac22ee6",
+        "encoded": "*%20Validates%20parseNumber%20conversion%20from%20strings%20to%20numbers",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "e3be6d",
+        "hash": "cd12c0ee",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "e3be6d",
+        "hash": "a0a977d3",
+        "encoded": "describe('parseNumber()',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "e3be6d",
+        "hash": "c7e6684f",
+        "encoded": "describe('Valid%20Parsing',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "e3be6d",
+        "hash": "05e7af85",
+        "encoded": "const%20validInputs%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "e3be6d",
+        "hash": "4a148b82",
+        "encoded": "%7B%20input:%20'42',%20expected:%2042,%20description:%20'integer%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "e3be6d",
+        "hash": "9d48bf00",
+        "encoded": "%7B%20input:%20'3.14',%20expected:%203.14,%20description:%20'decimal%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "e3be6d",
+        "hash": "c5f8c97e",
+        "encoded": "%7B%20input:%20'-10',%20expected:%20-10,%20description:%20'negative%20number%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "e3be6d",
+        "hash": "bbfcb8db",
+        "encoded": "%7B%20input:%20'0',%20expected:%200,%20description:%20'zero%20string'%20%7D",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "e3be6d",
+        "hash": "980efaa3",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "e3be6d",
+        "hash": "d7047e2f",
+        "encoded": "validInputs.forEach((%7B%20input,%20expected,%20description%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "e3be6d",
+        "hash": "ae3bf828",
+        "encoded": "it(%60should%20parse%20$%7Bdescription%7D%20(%22$%7Binput%7D%22)%60,%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "e3be6d",
+        "hash": "bff26070",
+        "encoded": "assert.strictEqual(parseNumber(input),%20expected);",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "e3be6d",
+        "hash": "f38e05b3",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "e3be6d",
+        "hash": "3b7ac76c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "e3be6d",
+        "hash": "da448ba5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "e3be6d",
+        "hash": "94c66f2f",
+        "encoded": "describe('Invalid%20Parsing',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "e3be6d",
+        "hash": "38265f7a",
+        "encoded": "const%20invalidInputs%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "e3be6d",
+        "hash": "27d715ba",
+        "encoded": "%7B%20input:%20'abc',%20description:%20'non-numeric%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "e3be6d",
+        "hash": "938e11c4",
+        "encoded": "%7B%20input:%20'',%20description:%20'empty%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "e3be6d",
+        "hash": "b754b961",
+        "encoded": "%7B%20input:%20'%20%20',%20description:%20'whitespace%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "e3be6d",
+        "hash": "3e8cfd1d",
+        "encoded": "%7B%20input:%20'NaN',%20description:%20'NaN%20string'%20%7D,",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "e3be6d",
+        "hash": "d288ddd5",
+        "encoded": "%7B%20input:%20'Infinity',%20description:%20'Infinity%20string'%20%7D",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "e3be6d",
+        "hash": "d2f67d8e",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "e3be6d",
+        "hash": "c5c7776e",
+        "encoded": "invalidInputs.forEach((%7B%20input,%20description%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "e3be6d",
+        "hash": "bebfb6bb",
+        "encoded": "it(%60should%20return%20null%20for%20$%7Bdescription%7D%20(%22$%7Binput%7D%22)%60,%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "e3be6d",
+        "hash": "60296e0f",
+        "encoded": "assert.strictEqual(parseNumber(input),%20null);",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "e3be6d",
+        "hash": "c9e7ebd5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "e3be6d",
+        "hash": "2be2aa2a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "e3be6d",
+        "hash": "81a16467",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "e3be6d",
+        "hash": "be209b17",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    },
+    "_prevLineCount": 138
+  }
+}

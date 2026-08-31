@@ -1,0 +1,15 @@
+{
+  "filename": "sum.test.js",
+  "path": "testcase\\sum.test.js",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "49cff820": {
+      "value": "Refactor the selected code for improved clarity, efficiency, and maintainability, preserving functionality while enhancing structure and readability.:"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

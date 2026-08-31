@@ -1,0 +1,15 @@
+{
+  "filename": "amazon-highest-rated-shoes-snapshot.txt",
+  "path": "tool-output\\amazon-highest-rated-shoes-snapshot.txt",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "c59950ff": {
+      "value": "open amazon.com , search for highest rated shoes and take snapshot of it and save it in tool-output folder if folder not present create it"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

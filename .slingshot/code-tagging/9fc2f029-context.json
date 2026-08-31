@@ -1,0 +1,15 @@
+{
+  "filename": "start-all.sh",
+  "path": "start-all.sh",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "1e865bfd": {
+      "value": "how to referesh the project"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

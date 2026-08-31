@@ -1,0 +1,372 @@
+{
+  "tool-output\\amazon-highest-rated-shoes-snapshot.txt": {
+    "filename": "amazon-highest-rated-shoes-snapshot.txt",
+    "path": "tool-output\\amazon-highest-rated-shoes-snapshot.txt",
+    "version": "1.2",
+    "contextFile": "b67f9ff7-context.json",
+    "chunks": {
+      "249c44": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788164579,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "c59950ff"
+        },
+        "hash": "f9d8458a",
+        "messageId": "system_b5b8c470-a514-11f1-96a2-d55f14b319f6",
+        "codeBlockId": null,
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 1:52:59 PM\n- **source**: agent\n- **type**: agentWriteTool\n"
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "249c44",
+        "hash": "9010dd6e",
+        "encoded": "**Amazon%20search%20results%20snapshot%20for%20%22highest%20rated%20shoes%22%20(page%202)**",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "249c44",
+        "hash": "753ae5ae",
+        "encoded": "**Page%20metadata:**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "249c44",
+        "hash": "e64f3cce",
+        "encoded": "-%20URL:%20https://www.amazon.com/s?k=highest+rated+shoes&crid=3DPSC61VT7SOS&sprefix=highest+rated+shoes%252Caps%252C369&ref=nb_sb_noss_1",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "249c44",
+        "hash": "048cef31",
+        "encoded": "-%20Title:%20%22Amazon.com%20:%20highest%20rated%20shoes%22",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "249c44",
+        "hash": "773d4d89",
+        "encoded": "-%20Results%20count:%20%221-48%20of%20over%201,000%20results%20for%20'highest%20rated%20shoes'%22",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "249c44",
+        "hash": "d55fed84",
+        "encoded": "-%20Sort:%20Featured%20(options:%20Price%20Low/High,%20Avg%20Customer%20Review,%20Newest%20Arrivals,%20Best%20Sellers)",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "249c44",
+        "hash": "d3251790",
+        "encoded": "**Top%20product%20results:**",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "249c44",
+        "hash": "3add0212",
+        "encoded": "1.%20**Overall%20Pick%20-%20Skechers%20Men's%20Cankton%20Steel%20Toe**%20(uid=2_100)",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "249c44",
+        "hash": "60988587",
+        "encoded": "-%20Rating:%204.3/5,%2027,849%20ratings",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "249c44",
+        "hash": "dffb54a6",
+        "encoded": "-%20Price:%20$48.99%20(List:%20$89.00)",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "249c44",
+        "hash": "ca08da98",
+        "encoded": "-%20Ships%20to%20India:%20$24.40%20delivery%20Fri%20Sep%2018",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "249c44",
+        "hash": "b36f8fe8",
+        "encoded": "-%20%22500+%20bought%20in%20past%20month%22",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "249c44",
+        "hash": "107b8b68",
+        "encoded": "2.%20**STQ%20Slip%20on%20Sneakers%20Women**%20(uid=2_113)",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "249c44",
+        "hash": "0a7e23ab",
+        "encoded": "-%20Rating:%204.4/5,%201,498%20ratings",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "249c44",
+        "hash": "4ef397f1",
+        "encoded": "-%20%22See%20options%22%20link",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "249c44",
+        "hash": "99747222",
+        "encoded": "3.%20**WHITIN%20Women's%20Wide%20High-Top%20Canvas%20Barefoot%20Sneakers**%20(uid=2_119)",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "249c44",
+        "hash": "2757764f",
+        "encoded": "-%20Rating:%204.2/5,%201,098%20ratings",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "249c44",
+        "hash": "884617f5",
+        "encoded": "-%20%2250+%20bought%20in%20past%20month%22",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "249c44",
+        "hash": "63dd62e4",
+        "encoded": "**Recently%20bought%20and%20rated%20carousel**%20(uid=2_129,%205%20items):",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "249c44",
+        "hash": "dbbfba4e",
+        "encoded": "-%20Sponsored%20items%20with%20ratings%204.4-4.5/5",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "249c44",
+        "hash": "ebf22600",
+        "encoded": "-%20Items:%20hash%20bubbie%20sneakers%20($21.99,%209,861%20ratings),%20Skechers%20Women's%20Bobs%20($55.00,%2048,589%20ratings),%20Adokoo%20Canvas%20shoes%20($19.99,%205,150%20ratings),%20Vilanva%20walking%20shoes%20(477%20ratings),%20ZGR%20women's%20canvas%20sneakers%20($15.25,%203,387%20ratings)",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "249c44",
+        "hash": "11e9cd0a",
+        "encoded": "-%20All%20marked%20%2250-400+%20bought%20in%20past%20month%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "249c44",
+        "hash": "75e1093d",
+        "encoded": "**Additional%20organic%20results**%20(uid=2_197-2_531):",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "249c44",
+        "hash": "4130868d",
+        "encoded": "-%20Vilanva%20walking%20shoes%20(4.3/5,%20477%20ratings,%20%22300+%20bought%20in%20past%20month%22)",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "249c44",
+        "hash": "94301ed9",
+        "encoded": "-%20WHITIN%20walking%20sneakers%20(4.1/5,%20112%20ratings)",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "249c44",
+        "hash": "b0c73447",
+        "encoded": "-%20Ecetana%20tennis%20shoes%20($22.99,%20220%20ratings)",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "249c44",
+        "hash": "fde2336f",
+        "encoded": "-%20**Best%20Seller**%20-%20Merrell%20Men's%20Moab%203%20(4.6/5,%2015,030%20ratings,%20%2250+%20bought%22)",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "249c44",
+        "hash": "f68c2dcf",
+        "encoded": "-%20HOBIBEAR%20barefoot%20shoes%20(4.3/5,%20155%20ratings)",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "249c44",
+        "hash": "900218bd",
+        "encoded": "-%20YHOON%20walking%20shoes%20(4.2/5,%202,571%20ratings)",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "249c44",
+        "hash": "b019e674",
+        "encoded": "-%20Skechers%20work%20boots%20($69.99,%201,166%20ratings,%20%22100+%20bought%22)",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "249c44",
+        "hash": "e9e21633",
+        "encoded": "-%20HKR%20women's%20slip-on%20(4.0/5,%2046,101%20ratings)",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "249c44",
+        "hash": "38dc351f",
+        "encoded": "-%20Joomra%20barefoot%20trail%20shoes%20($43.99,%2025,891%20ratings,%20%22Best%20Seller%22)",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "249c44",
+        "hash": "cdf45f3c",
+        "encoded": "-%20Under%20Armour%20tactical%20boots%20(4.5/5,%203,178%20ratings)",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "249c44",
+        "hash": "c116a969",
+        "encoded": "-%20Skechers%20work%20shoes%20($45.00,%2018,239%20ratings,%20%22300+%20bought%22)",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "249c44",
+        "hash": "c07a89bc",
+        "encoded": "-%20CAT%20work%20boots%20(4.4/5,%2013,671%20ratings,%20%22100+%20bought%22,%20%22Foam%22)",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "249c44",
+        "hash": "b6c30c55",
+        "encoded": "-%20**#1%20Top%20Rated**%20-%20Merrell%20Jungle%20Slip-On%20(4.6/5,%2027,502%20ratings)",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "249c44",
+        "hash": "f53c2bab",
+        "encoded": "**Sponsored%20video%20ads:**",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "249c44",
+        "hash": "c915d8e2",
+        "encoded": "-%20WHITIN%20Women's%20wide%20barefoot%20trail%20shoes%20(uid=2_532-2_537,%204.2/5,%20590%20ratings,%20%22100+%20bought%22)",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "249c44",
+        "hash": "b82e33cb",
+        "encoded": "**Sidebar%20sponsored%20ad**%20(uid=2_553):",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "249c44",
+        "hash": "17004c71",
+        "encoded": "-%20LBAIO%20Women's%20Wide%20Toe%20Box%20Slip-On%20($39.99,%204/5,%2087%20reviews)",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "249c44",
+        "hash": "4e365720",
+        "encoded": "**Filters%20available:**",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "249c44",
+        "hash": "8a079f5f",
+        "encoded": "-%20Gender:%20Men,%20Women,%20Boys,%20Unisex",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "249c44",
+        "hash": "a8217a0d",
+        "encoded": "-%20Customer%20Reviews:%204%20Stars%20&%20Up",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "249c44",
+        "hash": "feb9ef75",
+        "encoded": "-%20Price%20ranges:%20Up%20to%20$40,%20$40-$60,%20$60-$100,%20$100+",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "249c44",
+        "hash": "2a63801a",
+        "encoded": "-%20Deals:%20All%20Discounts,%20Buy%20More%20Save%20More,%20Today's%20Deals",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "249c44",
+        "hash": "7e3d5cdb",
+        "encoded": "-%20Colors:%20Black,%20Brown,%20Grey,%20White,%20Beige,%20Red,%20Pink,%20Orange,%20Blue,%20Silver,%20Multi",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "249c44",
+        "hash": "70959ae0",
+        "encoded": "-%20Widths:%20Men's%20(XX-Narrow%20to%20XX-Wide),%20Women's%20(same),%20Children's%20(Narrow%20to%20X-Wide)",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "249c44",
+        "hash": "7a0d0d2c",
+        "encoded": "-%20Sizes:%20Men's%205-15,%20multiple%20filter%20options",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "249c44",
+        "hash": "32146964",
+        "encoded": "-%20Brands:%20adidas,%20Skechers,%20New%20Balance,%20Under%20Armour,%20Reebok",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "249c44",
+        "hash": "d49deea1",
+        "encoded": "-%20Special%20features:%20Slip%20Resistant,%20Lightweight,%20Breathable,%20Flexible,%20Shock/Water%20Resistant,%20Waterproof",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "249c44",
+        "hash": "314bcff9",
+        "encoded": "-%20Materials:%20Leather,%20Faux%20Leather,%20Canvas,%20Mesh,%20Polyester,%20Rubber,%20Suede",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "249c44",
+        "hash": "c4071b03",
+        "encoded": "-%20Heel%20heights,%20toe%20styles,%20closure%20types,%20purposes,%20etc.",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "249c44",
+        "hash": "9d512f9f",
+        "encoded": "**Pagination:**",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "249c44",
+        "hash": "67ee287f",
+        "encoded": "-%20Current:%20Page%201%20(disabled%20previous%20button)",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "249c44",
+        "hash": "a1a99e01",
+        "encoded": "-%20Available:%20Pages%202,%203,%20...,%207",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "249c44",
+        "hash": "34bc7072",
+        "encoded": "-%20%22Go%20to%20next%20page,%20page%202%22%20button%20(uid=2_546)",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "249c44",
+        "hash": "cc3bb77e",
+        "encoded": "**Footer:**%20Standard%20Amazon%20navigation%20with%20Get%20to%20Know%20Us,%20Make%20Money,%20Payment%20Products,%20Let%20Us%20Help%20sections%20plus%20international%20shopping%20options.",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

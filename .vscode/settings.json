@@ -1,0 +1,12 @@
+{
+    "Slingshot.readFileLineLimit": 3000,
+    "slingshot.agent.compaction.enabled": true,
+    "slingshot.agent.environmentVariables": {
+        "COMPACTION_ENABLED": "true"
+    },
+    "terminal.integrated.env.windows": {
+        "COMPACTION_ENABLED": "true"
+    },
+    "Slingshot.enablePromptRecommendationInSmartChat": true,
+    "Slingshot.enableAtTheRateWorkspaceFeature": true
+}

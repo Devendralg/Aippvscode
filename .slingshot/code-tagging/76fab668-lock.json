@@ -1,0 +1,60 @@
+{
+  ".env": {
+    "filename": ".env",
+    "path": ".env",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "f05982": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1787918025,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "insertCode",
+        "extraContext": {},
+        "hash": "6e422ea6",
+        "messageId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f",
+        "codeBlockId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f-Codeblock-7",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/28/2026, 5:23:45 PM\n- **source**: chat\n- **type**: insertCode\n"
+      },
+      "207e53": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1787918037,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {},
+        "hash": "c6ba5c75",
+        "messageId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f",
+        "codeBlockId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f-Codeblock-7",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/28/2026, 5:23:57 PM\n- **source**: chat\n- **type**: copyCode\n"
+      },
+      "1fb5c1": {
+        "user": "Devendrappa .",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1787918048,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {},
+        "hash": "5100a01d",
+        "messageId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f",
+        "codeBlockId": "system_8eb69ef0-a2d6-11f1-9e68-a70123fc660f-Codeblock-7",
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendrappa .\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/28/2026, 5:24:08 PM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {},
+    "_prevLineCount": 9
+  }
+}

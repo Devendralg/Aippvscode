@@ -1,0 +1,83 @@
+{
+  "testcase\\sum.js": {
+    "filename": "sum.js",
+    "path": "testcase\\sum.js",
+    "version": "1.2",
+    "contextFile": "f3288381-context.json",
+    "chunks": {
+      "845925": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172251,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "49cff820"
+        },
+        "hash": "be2430f9",
+        "messageId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 4:00:51 PM\n- **source**: chat\n- **type**: compareCode\n"
+      },
+      "cdd1ce": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172248,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "compareCode",
+        "extraContext": {
+          "promptMessage": "49cff820"
+        },
+        "hash": "be2430f9",
+        "messageId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": null,
+        "isActive": false,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 4:00:48 PM\n- **source**: chat\n- **type**: compareCode\n"
+      },
+      "26c0bc": {
+        "user": "Devendra",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1788172258,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "3.3.0",
+        "source": "chat",
+        "type": "copyCode",
+        "extraContext": {
+          "promptMessage": "49cff820"
+        },
+        "hash": "be2430f9",
+        "messageId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793",
+        "codeBlockId": "system_f42ee3d0-a526-11f1-a3f3-dbaa78631793-Codeblock-1",
+        "isActive": true,
+        "hoverData": "\n### Slingshot Generated Code\n\n- **user**: Devendra\n- **model**: claude-sonnet-4-5@20250929\n- **timestamp**: 8/31/2026, 4:00:58 PM\n- **source**: chat\n- **type**: copyCode\n"
+      }
+    },
+    "lines": {
+      "1": {
+        "chunkId": "26c0bc",
+        "hash": "cf0ba928",
+        "encoded": "//%20This%20is%20slingshot%20version%203.2.0",
+        "prevChunkIds": [
+          "845925"
+        ]
+      },
+      "2": {
+        "chunkId": "26c0bc",
+        "hash": "1257a99a",
+        "encoded": "const%20%7B%20add,%20isValidNumber,%20parseNumber%20%7D%20=%20require('./add.js');",
+        "prevChunkIds": [
+          "845925"
+        ]
+      }
+    },
+    "_prevLineCount": 165
+  }
+}
